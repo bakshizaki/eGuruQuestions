@@ -1,0 +1,59 @@
+MaxScore:30
+ScorePerAssum:3
+ScorePerReason:1
+ScorePerNegAssum:-2
+FBDScore:10
+FBDNegScore:-1
+FBDHintScore:-1
+ForceScore:8
+ForceNegScore:-1
+ForceHintScore:-1
+Question:
+<html>
+<p> A person starts to stack up weights on a barbell for a front squat. However, the person begins to load the bar on one side and then the other. Assume the weights available are 45 lbs(2.4 inch wide) and 25 lbs(1.5 inch wide). What is the maximum amount of weight the person can load before the barbell begins to flip.</p>
+<p> Use the following data for the barbell :
+<ul>
+	<li>The total length of the barbell is 86 inches.
+	<li>The distance between the support A and the first weight is 5.6 inches.
+	<li>The distance between the supports is 44 inches.
+</ul>
+</html>
+End Question
+Assumptions:
+The weights must be placed very gently on the bar.|correct
+If the weights are not placed gently, time dependent forces or an impulse may be generated and inertial forces need to be considered. This would no longer be a statics problem.|valid
+Placing the weights abruptly will generate frictional forces, complicating the statics model further.|invalid
+End Reasons
+The assumption that the weight of the empty bar acts in the middle is needed for this analysis.|incorrect
+The governing equation is written for the whole bar, ie there is no need to cut the bar in this problem.|valid
+Most of the mass is centered at the ends of the barbell.|invalid
+End Reasons
+All frictional forces can be neglected.|correct
+Considering frictional forces will complicate the model further.|valid
+There is no friction acting on the system.|invalid
+End Reasons
+The support at point A can be modeled as a pin support.|correct
+The system is free to rotate about that point, but it can’t move in x or y direction.|valid
+The system is free to rotate about that point, and a reaction moment is generated at that point.|invalid
+End Reasons
+The support at point B can be modeled as a pin support.|correct
+The system is free to rotate about that point. Also, as the weight increases it will move in the y direction. Therefore it is a roller support.|invalid
+The support can be modeled as a pin support, but as soon as the bar begins to move, it is no longer a statics problem.|valid
+End Reasons
+Modeling both supports as a pin would make the system statically indeterminate.|correct
+There would be more unknowns than number of equations.|valid
+There would be more equations than unknowns.|invalid
+End Reasons
+Just when the bar begins to move, all the displacements are very small. All changes in the location of center of mass and weight distributions etc cant be neglected.|complicated
+Using this assumption would complicate the system.|valid
+More reaction forces would be generated at point A.|invalid
+End Reasons
+The weight of all the plates can be modeled as a single point load acting in the middle of the stacked weights.|incorrect
+Since the dimension of the plates are different, the effective total weight would not be acting at the center.|valid
+Friction between the plates cant be neglected.|invalid
+End Reasons
+End Assumptions
+FBDHints:
+The forces on the barbell is of interest.
+The weight of the barbell can be assumed  to be acting on the center, and deflections when the bar is about to flip, are very small and can be ignored.
+End FBDHints

@@ -1,0 +1,16 @@
+Forces:
+63,141,true,Force,Known,Anticlockwise,271
+90,141,true,Force,Known,Anticlockwise,271
+127,142,true,Force,Known,Anticlockwise,270
+417,140,true,Force,Known,Anticlockwise,270
+654,141,true,Force,Unknown,Anticlockwise,90
+654,141,true,Force,Unknown,Anticlockwise,0
+228,140,true,Force,Unknown,Anticlockwise,90
+228,140,true,Force,Unknown,Anticlockwise,359
+767,140,false,Moment,Unknown,Anticlockwise,0
+654,180,false,Moment,Unknown,Anticlockwise,0
+185,141,false,Moment,Unknown,Anticlockwise,0
+552,140,false,Moment,Unknown,Anticlockwise,0
+623,61,false,Moment,Unknown,Anticlockwise,0
+398,276,false,Moment,Unknown,Anticlockwise,0
+End Forces
