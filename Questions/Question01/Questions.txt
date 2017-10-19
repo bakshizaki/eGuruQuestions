@@ -33,7 +33,7 @@ Considering frictional forces will complicate the model further.|valid
 There is no friction acting on the system.|invalid
 End Reasons
 The support at point A can be modeled as a pin support.|correct
-The system is free to rotate about that point, but it can’t move in x or y direction.|valid
+The system is free to rotate about that point, but it can not move in x or y direction.|valid
 The system is free to rotate about that point, and a reaction moment is generated at that point.|invalid
 End Reasons
 The support at point B can be modeled as a pin support.|correct
