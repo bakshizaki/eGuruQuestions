@@ -10,7 +10,7 @@ ForceNegScore:-1
 ForceHintScore:-1
 Question:
 <html>
-<p> A family put up a swing in their backyard. They fear that the horizontal member of the system might not be safe for both swings to be occupied at the same time as another child hangs from the rings. Is the structure safe? Make sure static analysis is sufficient for this problem. </p>
+<p> A family put up a swing in their backyard. They fear that the horizontal member of the system might not be safe for both swings to be occupied at the same time as another child hangs from the rings. Is the structure safe? Make sure static analysis is sufficient for this problem.</p>
 <p> Use the following data for the problem :
 <ul>
 	<li>The weight of all three children is 50 pounds.
