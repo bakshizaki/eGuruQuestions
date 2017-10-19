@@ -27,7 +27,7 @@ This should happen since the model is solved using static analysis.|valid
 Not using this assumption would complicate the statics model.|invalid
 End Reasons
 For easier calculation, assume that the elbows are completely locked out.|correct
-This assumption makes the calculations easier. |valid
+This assumption makes the calculations easier.|valid
 That is the only way to stabilize on the swing or rings.|invalid
 End Reasons
 The support on the left end of the frame can be modeled as a fixed support.|incorrect
