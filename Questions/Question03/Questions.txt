@@ -1,0 +1,45 @@
+MaxScore:30
+ScorePerAssum:3
+ScorePerReason:1
+ScorePerNegAssum:-2
+FBDScore:10
+FBDNegScore:-1
+FBDHintScore:-1
+ForceScore:8
+ForceNegScore:-1
+ForceHintScore:-1
+Question:
+<html>
+<p> A person starts to climb up a ladder to clear some snow of the roof. What should the coefficient of static friction between the ground and the ladder be so that the person can go unto half the height of the ladder safely. Neglect the weight of the shovel.</p>
+<p> Use the following data :
+<ul>
+	<li>The total length of the ladder is 8 feet. 
+	<li>The weight go the ladder is 20 pounds.
+	<li>The weight of the person is 100 pounds.
+	<li>The coefficient of static friction between the wall and the ladder is 0.5.
+	<li>The angle that the ladder makes with the horizontal is 45 degrees.
+</ul>
+</html>
+End Question
+Assumptions:
+The ladder does not have the same properties throughout its length.|complicated
+Using this assumption complicates the model. For example, the center of gravity of the ladder needs to be calculated and so on.|valid
+Using this assumption would mean the analysis is no longer a static analysis.|invalid
+End Reasons
+One of the reasons for different coefficient of static friction is the amount of snow at the top and the ground may differ.|correct
+The presence of snow will lower the friction between the surface of interest and the ladder, and the case where there is exactly equal snow on both surfaces is a very rare possibility..|valid
+The amount of snow is linearly varying with the coefficient of static friction.|invalid
+End Reasons
+All frictional forces can be neglected.|incorrect
+Friction is acting on points where the ladder makes contact with the ground and the roof.|valid
+Friction between the roof and the ladder can be neglected since the friction at the ground is already accounted for.|invalid
+End Reasons
+The point where the ladder rests at the ground can be modeled as a fixed support.|incorrect
+The system is free to rotate about that point.|valid
+The system can move in the x direction and is free to rotate, and is a roller support, with freedom to move in x direction.|invalid
+End Reasons
+End Assumptions
+FBDHints:
+All forces on ladder and frictional forces on point of contact are of interest.
+The weight of the ladder is acting at the mid point of the ladder.
+End FBDHints

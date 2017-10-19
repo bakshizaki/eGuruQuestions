@@ -1,0 +1,19 @@
+Points:
+136,44,true
+158,391,true
+481,46,true
+483,392,false
+311,395,false
+481,206,false
+297,243,false
+294,178,false
+409,123,false
+237,306,false
+371,285,true
+End Points
+Lines:
+136,44|158,391
+158,391|371,285
+371,285|481,46
+481,46|136,44
+End Lines
