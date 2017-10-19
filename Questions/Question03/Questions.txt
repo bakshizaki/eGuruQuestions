@@ -27,7 +27,7 @@ Using this assumption complicates the model. For example, the center of gravity 
 Using this assumption would mean the analysis is no longer a static analysis.|invalid
 End Reasons
 One of the reasons for different coefficient of static friction is the amount of snow at the top and the ground may differ.|correct
-The presence of snow will lower the friction between the surface of interest and the ladder, and the case where there is exactly equal snow on both surfaces is a very rare possibility..|valid
+The presence of snow will lower the friction between the surface of interest and the ladder, and the case where there is exactly equal snow on both surfaces is a very rare possibility.|valid
 The amount of snow is linearly varying with the coefficient of static friction.|invalid
 End Reasons
 All frictional forces can be neglected.|incorrect
