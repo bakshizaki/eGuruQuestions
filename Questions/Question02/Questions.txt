@@ -1,0 +1,42 @@
+MaxScore:30
+ScorePerAssum:3
+ScorePerReason:1
+ScorePerNegAssum:-2
+FBDScore:10
+FBDNegScore:-1
+FBDHintScore:-1
+ForceScore:8
+ForceNegScore:-1
+ForceHintScore:-1
+Question:
+<html>
+<p> A rock climbing enthusiast poses for a picture . However, he needs to make sure that there is enough friction between his legs and the rock so that he does not slip and injure himself. The mass of the person is 100 kg. What should the coefficient of static friction be so that the person does not slip against the rock.</p>
+</html>
+End Question
+Assumptions:
+For easier calculation, assume that the legs of the person are straight.|correct
+This assumption makes the problem easier.|valid
+The person won’t be able to stabilize his/her position if the legs are bent.|invalid
+End Reasons
+All frictional forces can be neglected|incorrect
+Person would slip if no friction exists between legs and the rock.|valid
+The friction between rope and the pulley (which helps the person to grab the rope) is not negligible.|invalid
+Friction between rope and the point of contact of the rock is not negligible.|invalid
+End Reasons
+The support at point A is a fixed support.|incorrect
+The system is free to rotate about that point, but not free to move in x or y, therefore it is a pin support.|valid
+The system can move in the x direction and is free to rotate, and is a roller support.|invalid
+End Reasons
+Support at point A is a hinge support.|correct
+The system can rotate about that point, but can’t move in the x or y direction.|valid
+The system is free to rotate about that point but has no other constraint.|invalid
+End Reasons
+The line of action of the tension in the rope coincides with the center of mass.|correct
+This naturally happens as the person stabilizes himself or herself.|valid
+The center of mass is assumed to be at the hip joint.|invalid 
+End Reasons
+End Assumptions
+FBDHints:
+The unknown is the coefficient of static friction. The reaction force between the legs and the rock is of interest.
+Mass of the human is assumed to go through the line of action, vertically downwards.
+End FBDHints

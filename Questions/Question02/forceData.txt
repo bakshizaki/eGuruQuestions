@@ -1,0 +1,12 @@
+Forces:
+267,172,true,Force,Known,Anticlockwise,270
+88,267,true,Force,Unknown,Anticlockwise,90
+88,267,true,Force,Unknown,Anticlockwise,0
+131,63,true,Force,Unknown,Anticlockwise,139
+175,222,false,Moment,Unknown,Anticlockwise,0
+191,112,false,Moment,Unknown,Anticlockwise,0
+266,113,false,Moment,Unknown,Anticlockwise,0
+339,262,false,Moment,Unknown,Anticlockwise,0
+56,177,false,Moment,Unknown,Anticlockwise,0
+53,45,false,Moment,Unknown,Anticlockwise,0
+End Forces

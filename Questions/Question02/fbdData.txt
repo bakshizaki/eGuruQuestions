@@ -1,0 +1,16 @@
+Points:
+248,100,false
+174,283,false
+356,20,false
+445,237,false
+358,187,false
+276,229,false
+356,126,false
+173,176,false
+End Points
+Lines:
+248,100|356,20
+356,20|445,237
+445,237|174,283
+174,283|248,100
+End Lines
