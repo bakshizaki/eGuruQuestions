@@ -1,0 +1,43 @@
+MaxScore:30
+ScorePerAssum:3
+ScorePerReason:1
+ScorePerNegAssum:-2
+FBDScore:10
+FBDNegScore:-1
+FBDHintScore:-1
+ForceScore:8
+ForceNegScore:-1
+ForceHintScore:-1
+Question:
+<html>
+<p> A person tries to lift a medicine ball of 20 pounds on the palm of his hand as shown. What is force on the bicep muscle if the vertical force exerted on the forearm is neglected.</p>
+<p> Use the following data :
+<ul>
+	<li>The length of the hand from the end of the elbow to the end of the palm is L.
+	<li>The distance between the end of the elbow to the center of the bicep muscle is d.
+	<li>The weight of the hand (from the end of the elbow to the end of the palm) is distributed in a triangular fashion, with more weight towards the elbow.
+</ul>
+</html>
+End Question
+Assumptions:
+The elbow joint is a fixed support.|incorrect
+The elbow joint can allow rotation.|valid
+The weight of the ball is too small to generate a moment.|invalid
+End Reasons
+The force of the bicep muscle acts at the center, which is symmetrically placed between the elbow and the forearm.|correct
+This assumption makes the analysis easier, since the location of the net force acting is much more simplified.|valid
+This assumption makes sure that the elbow can be modeled as a pin joint.|invalid
+End Reasons
+The hand is perfectly horizontal.|correct
+This assumption makes the analysis easier.|valid
+This assumption is the reason all frictional forces can be neglected.|invalid
+End Reasons
+The ball is perfectly symmetric and the weight acts through the center of the ball.|correct
+This assumption makes the analysis less complicated.|valid
+Not making this analysis would make this a dynamic problem.|invalid
+End Reasons
+End Assumptions
+FBDHints:
+The tension in the bicep muscle is of interest.
+The elbow is a pin joint, the reaction forces at the joint will be needed.
+End FBDHints
