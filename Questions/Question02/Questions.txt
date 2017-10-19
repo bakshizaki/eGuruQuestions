@@ -28,7 +28,7 @@ The system is free to rotate about that point, but not free to move in x or y, t
 The system can move in the x direction and is free to rotate, and is a roller support.|invalid
 End Reasons
 Support at point A is a hinge support.|correct
-The system can rotate about that point, but can’t move in the x or y direction.|valid
+The system can rotate about that point, but can not move in the x or y direction.|valid
 The system is free to rotate about that point but has no other constraint.|invalid
 End Reasons
 The line of action of the tension in the rope coincides with the center of mass.|correct
