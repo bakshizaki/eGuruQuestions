@@ -35,7 +35,7 @@ The system is free to rotate about that point, but not free to move in x or y, t
 The system can move in the y direction and is free to rotate, and is a roller support.|invalid
 End Reasons
 Support at the right end is a hinge support.|correct
-The systems free to rotate about that point but can’t move in x or y direction.|valid
+The systems free to rotate about that point but can not move in x or y direction.|valid
 The system can not move at that point at all.|invalid
 End Reasons
 The kids on the swing sit symmetrically with respect to both ends of the swing.|correct
